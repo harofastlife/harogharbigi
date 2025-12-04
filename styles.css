@@ -402,9 +402,109 @@ body {
     font-size: 0.8rem;
 }
 
+/* Writing & Publications Section */
+.writing {
+    background: var(--primary-color);
+}
+
+.publication-featured {
+    background: var(--secondary-color);
+    border-radius: 12px;
+    padding: 2.5rem;
+    border: 1px solid rgba(100, 255, 218, 0.2);
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    transition: all 0.3s ease;
+}
+
+.publication-featured:hover {
+    border-color: var(--accent-color);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.publication-icon {
+    flex-shrink: 0;
+    width: 80px;
+    height: 80px;
+    background: rgba(100, 255, 218, 0.1);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--accent-color);
+}
+
+.publication-content {
+    flex: 1;
+}
+
+.publication-content h3 {
+    color: var(--white);
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.publication-subtitle {
+    color: var(--accent-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.publication-description {
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+.publication-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.pub-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-primary);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background: rgba(100, 255, 218, 0.05);
+    border: 1px solid rgba(100, 255, 218, 0.2);
+    border-radius: 6px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.pub-link:hover {
+    background: rgba(100, 255, 218, 0.1);
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+    transform: translateY(-2px);
+}
+
+.pub-link svg {
+    width: 18px;
+    height: 18px;
+}
+
+@media (max-width: 768px) {
+    .publication-featured {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .publication-links {
+        justify-content: center;
+    }
+}
+
 /* Skills Section */
 .skills {
-    background: var(--primary-color);
+    background: var(--secondary-color);
 }
 
 .skills-grid {
