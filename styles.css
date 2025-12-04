@@ -241,6 +241,95 @@ body {
     line-height: 1.8;
 }
 
+.about-content {
+    max-width: 900px;
+}
+
+.about-intro {
+    margin-bottom: 2.5rem;
+}
+
+.about-lead {
+    font-size: 1.25rem;
+    line-height: 1.9;
+    color: var(--text-primary);
+}
+
+.about-lead strong {
+    color: var(--white);
+}
+
+.about-details h3 {
+    color: var(--accent-color);
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.about-details p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+}
+
+.about-details strong {
+    color: var(--text-primary);
+}
+
+.career-highlights,
+.expertise-list {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+}
+
+.career-highlights li,
+.expertise-list li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+}
+
+.career-highlights li::before,
+.expertise-list li::before {
+    content: '▹';
+    position: absolute;
+    left: 0;
+    color: var(--accent-color);
+}
+
+.career-highlights li strong,
+.expertise-list li strong {
+    color: var(--text-primary);
+}
+
+.about-cta {
+    margin-top: 2.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(100, 255, 218, 0.1);
+}
+
+.about-cta p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+}
+
+.about-cta a {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.about-cta a:hover {
+    text-decoration: underline;
+}
+
 /* Ventures Section */
 .ventures {
     background: var(--primary-color);
