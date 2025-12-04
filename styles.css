@@ -5,6 +5,25 @@
     padding: 0;
 }
 
+/* Skip Link for Accessibility */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: var(--accent-color);
+    color: var(--primary-color);
+    padding: 8px 16px;
+    z-index: 10000;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 0 0 4px 0;
+    transition: top 0.3s ease;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
 :root {
     --primary-color: #0a192f;
     --secondary-color: #112240;
