@@ -1448,6 +1448,18 @@ section[id] {
     opacity: 1;
 }
 
+.favorites-list li a {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: color 0.2s ease;
+    border-bottom: 1px dotted var(--accent-color);
+}
+
+.favorites-list li a:hover {
+    color: var(--accent-color);
+    border-bottom-style: solid;
+}
+
 @media (max-width: 768px) {
     .favorites-grid {
         grid-template-columns: 1fr;
