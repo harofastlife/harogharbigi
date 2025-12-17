@@ -7,7 +7,7 @@
     <!-- Homepage -->
     <url>
         <loc>https://harogharbigi.com/</loc>
-        <lastmod>2025-12-16</lastmod>
+        <lastmod>2025-12-17</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -263,9 +263,9 @@
     <!-- Publishing Platforms -->
     <url>
         <loc>https://harogharbigi.com/pages/medium.html</loc>
-        <lastmod>2025-12-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <lastmod>2025-12-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
     </url>
     <url>
         <loc>https://harogharbigi.com/pages/substack.html</loc>
